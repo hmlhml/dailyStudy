@@ -1,0 +1,15 @@
+$color: purple;
+div {
+    width: 100px;
+    color: $color;
+    display: flex;
+}
+
+// 测试autoprefixer
+div {
+    transform: translate3d(10deg);
+}
+
+body {
+    background: cadetblue;
+}
